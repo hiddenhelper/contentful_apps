@@ -20,6 +20,7 @@ import AppConfig from './AppConfig/AppConfig';
 import { Integration } from './interfaces';
 
 export function setup(integration: Integration) {
+  
   init(sdk => {
     const root = document.getElementById('root');
 
